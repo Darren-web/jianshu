@@ -14,15 +14,16 @@ class Header extends Component {
                             <li><div className={Style.toDownloadApp}>下载APP</div></li>
                             <li><input type="text"/></li>
                         </ul>
+                        <ul className={Style.right}>
+                            <li className={Style.right}><a href="/" className={Style.header_font}>Aa</a></li>
+                            <li className={Style.right}><a href="/" className={Style.header_login}>登录</a></li>
+                        </ul>
         
                     </div>
                     <div className={Style.header_right}>
                         <ul>
-                            <li><a href="/">1</a></li>
-                            <li><a href="/">2</a></li>
-                            <li><a href="/">3</a></li>
-                            <li><a href="/">4</a></li>
-                            <li><a href="/">5</a></li>
+                            <li><a href="/" className={Style.header_register}>注册</a></li>
+                            <li><a href="/" className={Style.header_write}>写文章</a></li>
                         </ul>
                     </div>
                 </div> 

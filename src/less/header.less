@@ -1,3 +1,4 @@
+
 //整个header
 .header_containner{
     width: 100%;
@@ -26,10 +27,12 @@
     left: 0;
     top: 0;
     display: inline-block;
+    margin-right: 15px;
 }
 //header中间部分（首页、APP、搜索框）
 .header_center{
-    width: 945px;
+    width: 980px;
+    height: 55px;
     display: inline-block;
     height: 100%;
     line-height: 55px;
@@ -43,13 +46,67 @@
         display: inline-block;
         color:#ea6f5a;
         text-decoration: none;
+        text-align: center;
+    }
+    .header_login{
+        color: #969696;
+        width: 50px;
+        height: 28px;
+        padding: 6px 12px;
+        margin: 11px 6px 0 11px;
+        float: right;
+        line-height: 24px;
+
+    }
+    .header_font{
+        width: 40px;
+        height: 55px;
+        float: right;
+        color:#969696;
     }
     
 }
 //header右侧
 .header_right{
     float: right;
+    height: 100%;
+    line-height: 24px;
+    ul{float: left;}
     li{
         float: left;
+        margin-right: 5px;
+        a{
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        }
     }
+    .header_write{
+        width: 76px;
+        height: 28px;
+        border: 1px solid #fff;
+        margin:8px 12px 0 12px;
+        padding:6px 12px;
+        background-color: #ec6149;
+        border-radius: 20px;
+        line-height: 24px;
+        color:#fff;
+    }
+    .header_register{
+        width: 58px;
+        height: 26px;
+        border: 1px solid #ea6f5a;
+        border-radius: 20px;
+        padding: 6px 12px;
+        margin: 9px 5px 0 15px;
+        color: #ea6f5a;
+    }
+    
+}
+//浮动
+.right{
+    float: right;
+}
+.left{
+    float: left;
 }
